@@ -1,0 +1,146 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/SM#2300Task1A/comb_ckt/comb_ckt/simulation/modelsim
+vcomb_ckt_tb
+Z1 !s110 1636390607
+!i10b 1
+!s100 Ng_k64I^3a<Q5l<LQA^b`1
+I3HUn``:Me8>KD4S3XCJgQ2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1634884993
+8E:/SM#2300Task1A/comb_ckt/comb_ckt/simulation/modelsim/comb_ckt_tb.v
+FE:/SM#2300Task1A/comb_ckt/comb_ckt/simulation/modelsim/comb_ckt_tb.v
+L0 3
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1636390607.000000
+!s107 E:/SM#2300Task1A/comb_ckt/comb_ckt/simulation/modelsim/comb_ckt_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/SM#2300Task1A/comb_ckt/comb_ckt/simulation/modelsim|E:/SM#2300Task1A/comb_ckt/comb_ckt/simulation/modelsim/comb_ckt_tb.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+E:/SM#2300Task1A/comb_ckt/comb_ckt/simulation/modelsim
+Z6 tCvgOpt 0
+vcomb_ckt_verilog
+R1
+!i10b 1
+!s100 :KU=h7kFQE9BTneJ7e7a13
+IeiS477FKD>4CF>lPhIY8L0
+R2
+R0
+w1634888209
+8E:/SM#2300Task1A/comb_ckt/comb_ckt/comb_ckt_verilog.v
+FE:/SM#2300Task1A/comb_ckt/comb_ckt/comb_ckt_verilog.v
+L0 20
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/SM#2300Task1A/comb_ckt/comb_ckt/comb_ckt_verilog.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/SM#2300Task1A/comb_ckt/comb_ckt|E:/SM#2300Task1A/comb_ckt/comb_ckt/comb_ckt_verilog.v|
+!i113 1
+R5
+Z7 !s92 -vlog01compat -work work +incdir+E:/SM#2300Task1A/comb_ckt/comb_ckt
+R6
+vFour_Bit_Comparator
+R1
+!i10b 1
+!s100 L7bB6KzAcWVW9=z[HU2I30
+I9ZkS2ji;0gIa:QSgd>Sh<1
+R2
+R0
+w1634885406
+8E:/SM#2300Task1A/comb_ckt/comb_ckt/Four_Bit_Comparator.v
+FE:/SM#2300Task1A/comb_ckt/comb_ckt/Four_Bit_Comparator.v
+Z8 L0 21
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/SM#2300Task1A/comb_ckt/comb_ckt/Four_Bit_Comparator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/SM#2300Task1A/comb_ckt/comb_ckt|E:/SM#2300Task1A/comb_ckt/comb_ckt/Four_Bit_Comparator.v|
+!i113 1
+R5
+R7
+R6
+n@four_@bit_@comparator
+vLogic_Func
+R1
+!i10b 1
+!s100 _55]2H27_S[Ff_9j8=a:j1
+I?=J[Q^_M>d>L5LJ9liaHa3
+R2
+R0
+w1634885619
+8E:/SM#2300Task1A/comb_ckt/comb_ckt/Logic_Func.v
+FE:/SM#2300Task1A/comb_ckt/comb_ckt/Logic_Func.v
+R8
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/SM#2300Task1A/comb_ckt/comb_ckt/Logic_Func.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/SM#2300Task1A/comb_ckt/comb_ckt|E:/SM#2300Task1A/comb_ckt/comb_ckt/Logic_Func.v|
+!i113 1
+R5
+R7
+R6
+n@logic_@func
+vMux_4_to_1
+R1
+!i10b 1
+!s100 O2NN3LYP^kfSSYn0h2n2o2
+I1?H7IQb12UL]65=hLR1;d0
+R2
+R0
+w1634885817
+8E:/SM#2300Task1A/comb_ckt/comb_ckt/Mux_4_to_1.v
+FE:/SM#2300Task1A/comb_ckt/comb_ckt/Mux_4_to_1.v
+R8
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/SM#2300Task1A/comb_ckt/comb_ckt/Mux_4_to_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/SM#2300Task1A/comb_ckt/comb_ckt|E:/SM#2300Task1A/comb_ckt/comb_ckt/Mux_4_to_1.v|
+!i113 1
+R5
+R7
+R6
+n@mux_4_to_1
+vTwo_Bit_Comparator
+R1
+!i10b 1
+!s100 @8Q0eCP6c1]JHCf9Ui3i;0
+ISbWT`NA_HdQlzf[;oBNJj0
+R2
+R0
+w1634885089
+8E:/SM#2300Task1A/comb_ckt/comb_ckt/Two_Bit_Comparator.v
+FE:/SM#2300Task1A/comb_ckt/comb_ckt/Two_Bit_Comparator.v
+R8
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/SM#2300Task1A/comb_ckt/comb_ckt/Two_Bit_Comparator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/SM#2300Task1A/comb_ckt/comb_ckt|E:/SM#2300Task1A/comb_ckt/comb_ckt/Two_Bit_Comparator.v|
+!i113 1
+R5
+R7
+R6
+n@two_@bit_@comparator

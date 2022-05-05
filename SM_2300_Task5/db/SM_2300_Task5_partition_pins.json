@@ -1,0 +1,85 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "adc_cs_n",
+					"strict" : false
+				},
+				{
+					"name" : "din",
+					"strict" : false
+				},
+				{
+					"name" : "inB1",
+					"strict" : false
+				},
+				{
+					"name" : "adc_sck",
+					"strict" : false
+				},
+				{
+					"name" : "inA2",
+					"strict" : false
+				},
+				{
+					"name" : "inB2",
+					"strict" : false
+				},
+				{
+					"name" : "EA1",
+					"strict" : false
+				},
+				{
+					"name" : "temp_S0",
+					"strict" : false
+				},
+				{
+					"name" : "temp_S2",
+					"strict" : false
+				},
+				{
+					"name" : "temp_S3",
+					"strict" : false
+				},
+				{
+					"name" : "tx",
+					"strict" : false
+				},
+				{
+					"name" : "green_on1",
+					"strict" : false
+				},
+				{
+					"name" : "blue_on1",
+					"strict" : false
+				},
+				{
+					"name" : "blue_on2",
+					"strict" : false
+				},
+				{
+					"name" : "blue_on3",
+					"strict" : false
+				},
+				{
+					"name" : "inA1",
+					"strict" : false
+				},
+				{
+					"name" : "clk_50M",
+					"strict" : false
+				},
+				{
+					"name" : "out",
+					"strict" : false
+				},
+				{
+					"name" : "dout",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,518 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 256 576)
+	(text "SM_2300_Task6_adc_control" (rect 5 0 126 12)(font "Arial" ))
+	(text "inst" (rect 8 544 20 556)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk_50M" (rect 0 0 34 12)(font "Arial" ))
+		(text "clk_50M" (rect 21 27 55 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "dout" (rect 0 0 16 12)(font "Arial" ))
+		(text "dout" (rect 21 43 37 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "green_signal" (rect 0 0 49 12)(font "Arial" ))
+		(text "green_signal" (rect 21 59 70 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "blue_signal" (rect 0 0 42 12)(font "Arial" ))
+		(text "blue_signal" (rect 21 75 63 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "red_signal" (rect 0 0 40 12)(font "Arial" ))
+		(text "red_signal" (rect 21 91 61 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 240 32)
+		(output)
+		(text "adc_cs_n" (rect 0 0 40 12)(font "Arial" ))
+		(text "adc_cs_n" (rect 179 27 219 39)(font "Arial" ))
+		(line (pt 240 32)(pt 224 32)(line_width 1))
+	)
+	(port
+		(pt 240 48)
+		(output)
+		(text "din" (rect 0 0 10 12)(font "Arial" ))
+		(text "din" (rect 209 43 219 55)(font "Arial" ))
+		(line (pt 240 48)(pt 224 48)(line_width 1))
+	)
+	(port
+		(pt 240 64)
+		(output)
+		(text "adc_sck" (rect 0 0 34 12)(font "Arial" ))
+		(text "adc_sck" (rect 185 59 219 71)(font "Arial" ))
+		(line (pt 240 64)(pt 224 64)(line_width 1))
+	)
+	(port
+		(pt 240 80)
+		(output)
+		(text "PWM_OUT" (rect 0 0 50 12)(font "Arial" ))
+		(text "PWM_OUT" (rect 169 75 219 87)(font "Arial" ))
+		(line (pt 240 80)(pt 224 80)(line_width 1))
+	)
+	(port
+		(pt 240 96)
+		(output)
+		(text "o0[10..0]" (rect 0 0 33 12)(font "Arial" ))
+		(text "o0[10..0]" (rect 186 91 219 103)(font "Arial" ))
+		(line (pt 240 96)(pt 224 96)(line_width 3))
+	)
+	(port
+		(pt 240 112)
+		(output)
+		(text "o1[10..0]" (rect 0 0 31 12)(font "Arial" ))
+		(text "o1[10..0]" (rect 188 107 219 119)(font "Arial" ))
+		(line (pt 240 112)(pt 224 112)(line_width 3))
+	)
+	(port
+		(pt 240 128)
+		(output)
+		(text "sim1[7..0]" (rect 0 0 37 12)(font "Arial" ))
+		(text "sim1[7..0]" (rect 182 123 219 135)(font "Arial" ))
+		(line (pt 240 128)(pt 224 128)(line_width 3))
+	)
+	(port
+		(pt 240 144)
+		(output)
+		(text "sim2[7..0]" (rect 0 0 38 12)(font "Arial" ))
+		(text "sim2[7..0]" (rect 181 139 219 151)(font "Arial" ))
+		(line (pt 240 144)(pt 224 144)(line_width 3))
+	)
+	(port
+		(pt 240 160)
+		(output)
+		(text "sim3[7..0]" (rect 0 0 38 12)(font "Arial" ))
+		(text "sim3[7..0]" (rect 181 155 219 167)(font "Arial" ))
+		(line (pt 240 160)(pt 224 160)(line_width 3))
+	)
+	(port
+		(pt 240 176)
+		(output)
+		(text "siv1[7..0]" (rect 0 0 35 12)(font "Arial" ))
+		(text "siv1[7..0]" (rect 184 171 219 183)(font "Arial" ))
+		(line (pt 240 176)(pt 224 176)(line_width 3))
+	)
+	(port
+		(pt 240 192)
+		(output)
+		(text "siv2[7..0]" (rect 0 0 36 12)(font "Arial" ))
+		(text "siv2[7..0]" (rect 183 187 219 199)(font "Arial" ))
+		(line (pt 240 192)(pt 224 192)(line_width 3))
+	)
+	(port
+		(pt 240 208)
+		(output)
+		(text "sin1[7..0]" (rect 0 0 34 12)(font "Arial" ))
+		(text "sin1[7..0]" (rect 185 203 219 215)(font "Arial" ))
+		(line (pt 240 208)(pt 224 208)(line_width 3))
+	)
+	(port
+		(pt 240 224)
+		(output)
+		(text "sin2[7..0]" (rect 0 0 35 12)(font "Arial" ))
+		(text "sin2[7..0]" (rect 184 219 219 231)(font "Arial" ))
+		(line (pt 240 224)(pt 224 224)(line_width 3))
+	)
+	(port
+		(pt 240 240)
+		(output)
+		(text "sip1[7..0]" (rect 0 0 34 12)(font "Arial" ))
+		(text "sip1[7..0]" (rect 185 235 219 247)(font "Arial" ))
+		(line (pt 240 240)(pt 224 240)(line_width 3))
+	)
+	(port
+		(pt 240 256)
+		(output)
+		(text "sip2[7..0]" (rect 0 0 35 12)(font "Arial" ))
+		(text "sip2[7..0]" (rect 184 251 219 263)(font "Arial" ))
+		(line (pt 240 256)(pt 224 256)(line_width 3))
+	)
+	(port
+		(pt 240 272)
+		(output)
+		(text "inA1" (rect 0 0 17 12)(font "Arial" ))
+		(text "inA1" (rect 202 267 219 279)(font "Arial" ))
+		(line (pt 240 272)(pt 224 272)(line_width 1))
+	)
+	(port
+		(pt 240 288)
+		(output)
+		(text "inB1" (rect 0 0 15 12)(font "Arial" ))
+		(text "inB1" (rect 204 283 219 295)(font "Arial" ))
+		(line (pt 240 288)(pt 224 288)(line_width 1))
+	)
+	(port
+		(pt 240 304)
+		(output)
+		(text "inA2" (rect 0 0 18 12)(font "Arial" ))
+		(text "inA2" (rect 201 299 219 311)(font "Arial" ))
+		(line (pt 240 304)(pt 224 304)(line_width 1))
+	)
+	(port
+		(pt 240 320)
+		(output)
+		(text "inB2" (rect 0 0 16 12)(font "Arial" ))
+		(text "inB2" (rect 203 315 219 327)(font "Arial" ))
+		(line (pt 240 320)(pt 224 320)(line_width 1))
+	)
+	(port
+		(pt 240 336)
+		(output)
+		(text "curr_node[6..0]" (rect 0 0 61 12)(font "Arial" ))
+		(text "curr_node[6..0]" (rect 158 331 219 343)(font "Arial" ))
+		(line (pt 240 336)(pt 224 336)(line_width 3))
+	)
+	(port
+		(pt 240 352)
+		(output)
+		(text "next_node[6..0]" (rect 0 0 61 12)(font "Arial" ))
+		(text "next_node[6..0]" (rect 158 347 219 359)(font "Arial" ))
+		(line (pt 240 352)(pt 224 352)(line_width 3))
+	)
+	(port
+		(pt 240 368)
+		(output)
+		(text "end_node_temp1[6..0]" (rect 0 0 88 12)(font "Arial" ))
+		(text "end_node_temp1[6..0]" (rect 131 363 219 375)(font "Arial" ))
+		(line (pt 240 368)(pt 224 368)(line_width 3))
+	)
+	(port
+		(pt 240 384)
+		(output)
+		(text "EA1" (rect 0 0 18 12)(font "Arial" ))
+		(text "EA1" (rect 201 379 219 391)(font "Arial" ))
+		(line (pt 240 384)(pt 224 384)(line_width 1))
+	)
+	(port
+		(pt 240 400)
+		(output)
+		(text "EA2" (rect 0 0 20 12)(font "Arial" ))
+		(text "EA2" (rect 199 395 219 407)(font "Arial" ))
+		(line (pt 240 400)(pt 224 400)(line_width 1))
+	)
+	(port
+		(pt 240 416)
+		(output)
+		(text "depo_signal" (rect 0 0 46 12)(font "Arial" ))
+		(text "depo_signal" (rect 173 411 219 423)(font "Arial" ))
+		(line (pt 240 416)(pt 224 416)(line_width 1))
+	)
+	(port
+		(pt 240 432)
+		(output)
+		(text "pick_signal" (rect 0 0 42 12)(font "Arial" ))
+		(text "pick_signal" (rect 177 427 219 439)(font "Arial" ))
+		(line (pt 240 432)(pt 224 432)(line_width 1))
+	)
+	(port
+		(pt 240 448)
+		(output)
+		(text "flag_ng[4..0]" (rect 0 0 50 12)(font "Arial" ))
+		(text "flag_ng[4..0]" (rect 169 443 219 455)(font "Arial" ))
+		(line (pt 240 448)(pt 224 448)(line_width 3))
+	)
+	(port
+		(pt 240 464)
+		(output)
+		(text "flag_mt[4..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "flag_mt[4..0]" (rect 168 459 219 471)(font "Arial" ))
+		(line (pt 240 464)(pt 224 464)(line_width 3))
+	)
+	(port
+		(pt 240 480)
+		(output)
+		(text "flag_vg[4..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "flag_vg[4..0]" (rect 168 475 219 487)(font "Arial" ))
+		(line (pt 240 480)(pt 224 480)(line_width 3))
+	)
+	(port
+		(pt 240 496)
+		(output)
+		(text "flag_pp[4..0]" (rect 0 0 50 12)(font "Arial" ))
+		(text "flag_pp[4..0]" (rect 169 491 219 503)(font "Arial" ))
+		(line (pt 240 496)(pt 224 496)(line_width 3))
+	)
+	(port
+		(pt 240 512)
+		(output)
+		(text "done_all" (rect 0 0 31 12)(font "Arial" ))
+		(text "done_all" (rect 188 507 219 519)(font "Arial" ))
+		(line (pt 240 512)(pt 224 512)(line_width 1))
+	)
+	(parameter
+		"pwm_p"
+		"00111111110"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"state_0"
+		"0000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"state_1"
+		"0001"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"state_2"
+		"0010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"state_3"
+		"0011"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"state_4"
+		"0100"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"state_5"
+		"0101"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"state_6"
+		"0110"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"state_7"
+		"0111"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"INT_MAX"
+		"1111111111"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"V"
+		"00100101"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"state_0_1"
+		"0000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"state_1_1"
+		"0001"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"state_2_1"
+		"0010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"state_3_1"
+		"0011"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"state_4_1"
+		"0100"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"state_5_1"
+		"0101"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"state_6_1"
+		"0110"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"state_7_1"
+		"0111"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"delay_value"
+		"0000000110010000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"N"
+		"11"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"S"
+		"10"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"W"
+		"00"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"E"
+		"01"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"ps1"
+		"000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"ps2"
+		"001"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"ps3"
+		"010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"ps4"
+		"011"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"ps5"
+		"100"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"ps6"
+		"101"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"ps7"
+		"110"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"se_0"
+		"00000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"se_1"
+		"00001"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"se_2"
+		"00010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"se_3"
+		"00011"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"se_4"
+		"00100"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"se_5"
+		"00101"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"se_6"
+		"00110"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"se_7"
+		"00111"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"se_8"
+		"01000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"check_min1"
+		"001"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"check_min2"
+		"010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"check_min3"
+		"011"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"check_min4"
+		"100"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"ns0"
+		"00"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"ns1"
+		"11"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"ns2"
+		"10"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(drawing
+		(rectangle (rect 16 16 224 544)(line_width 1))
+	)
+	(annotation_block (parameter)(rect 256 -64 356 16))
+)

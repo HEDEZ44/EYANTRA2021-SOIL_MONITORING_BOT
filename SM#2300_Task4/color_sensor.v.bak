@@ -1,0 +1,5 @@
+module color_sensor(
+
+      input clk_50,
+		output out);
+endmodule		

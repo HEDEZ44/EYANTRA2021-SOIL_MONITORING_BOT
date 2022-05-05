@@ -1,0 +1,221 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk_50M'
+Slack : -234.187
+TNS   : -136622.198
+
+Type  : Slow 1200mV 85C Model Setup 'SM_2300_Task6_color_detection:b2v_inst2|temp_scale_clock'
+Slack : -9.059
+TNS   : -1130.118
+
+Type  : Slow 1200mV 85C Model Setup 'SM_2300_Task6_uart:b2v_inst4|clock'
+Slack : -6.027
+TNS   : -205.767
+
+Type  : Slow 1200mV 85C Model Setup 'SM_2300_Task6_adc_control:b2v_inst3|adc_clock'
+Slack : -1.799
+TNS   : -74.470
+
+Type  : Slow 1200mV 85C Model Setup 'SM_2300_Task6_adc_control:b2v_inst3|clock_ms'
+Slack : -1.644
+TNS   : -22.885
+
+Type  : Slow 1200mV 85C Model Setup 'out'
+Slack : -0.404
+TNS   : -0.404
+
+Type  : Slow 1200mV 85C Model Hold 'SM_2300_Task6_adc_control:b2v_inst3|adc_clock'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk_50M'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SM_2300_Task6_uart:b2v_inst4|clock'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'out'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SM_2300_Task6_color_detection:b2v_inst2|temp_scale_clock'
+Slack : 0.389
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SM_2300_Task6_adc_control:b2v_inst3|clock_ms'
+Slack : 0.426
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_50M'
+Slack : -3.000
+TNS   : -1987.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'out'
+Slack : -3.000
+TNS   : -5.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SM_2300_Task6_color_detection:b2v_inst2|temp_scale_clock'
+Slack : -1.000
+TNS   : -193.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SM_2300_Task6_adc_control:b2v_inst3|adc_clock'
+Slack : -1.000
+TNS   : -58.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SM_2300_Task6_uart:b2v_inst4|clock'
+Slack : -1.000
+TNS   : -57.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SM_2300_Task6_adc_control:b2v_inst3|clock_ms'
+Slack : -1.000
+TNS   : -21.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk_50M'
+Slack : -210.311
+TNS   : -122581.555
+
+Type  : Slow 1200mV 0C Model Setup 'SM_2300_Task6_color_detection:b2v_inst2|temp_scale_clock'
+Slack : -8.037
+TNS   : -994.538
+
+Type  : Slow 1200mV 0C Model Setup 'SM_2300_Task6_uart:b2v_inst4|clock'
+Slack : -5.365
+TNS   : -182.879
+
+Type  : Slow 1200mV 0C Model Setup 'SM_2300_Task6_adc_control:b2v_inst3|adc_clock'
+Slack : -1.529
+TNS   : -61.799
+
+Type  : Slow 1200mV 0C Model Setup 'SM_2300_Task6_adc_control:b2v_inst3|clock_ms'
+Slack : -1.332
+TNS   : -17.741
+
+Type  : Slow 1200mV 0C Model Setup 'out'
+Slack : -0.260
+TNS   : -0.260
+
+Type  : Slow 1200mV 0C Model Hold 'clk_50M'
+Slack : 0.296
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SM_2300_Task6_adc_control:b2v_inst3|adc_clock'
+Slack : 0.298
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SM_2300_Task6_uart:b2v_inst4|clock'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'out'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SM_2300_Task6_color_detection:b2v_inst2|temp_scale_clock'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SM_2300_Task6_adc_control:b2v_inst3|clock_ms'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_50M'
+Slack : -3.000
+TNS   : -1987.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'out'
+Slack : -3.000
+TNS   : -5.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SM_2300_Task6_color_detection:b2v_inst2|temp_scale_clock'
+Slack : -1.000
+TNS   : -193.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SM_2300_Task6_adc_control:b2v_inst3|adc_clock'
+Slack : -1.000
+TNS   : -58.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SM_2300_Task6_uart:b2v_inst4|clock'
+Slack : -1.000
+TNS   : -57.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SM_2300_Task6_adc_control:b2v_inst3|clock_ms'
+Slack : -1.000
+TNS   : -21.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk_50M'
+Slack : -132.022
+TNS   : -76617.965
+
+Type  : Fast 1200mV 0C Model Setup 'SM_2300_Task6_color_detection:b2v_inst2|temp_scale_clock'
+Slack : -4.800
+TNS   : -569.022
+
+Type  : Fast 1200mV 0C Model Setup 'SM_2300_Task6_uart:b2v_inst4|clock'
+Slack : -2.967
+TNS   : -93.969
+
+Type  : Fast 1200mV 0C Model Setup 'SM_2300_Task6_adc_control:b2v_inst3|adc_clock'
+Slack : -0.537
+TNS   : -15.935
+
+Type  : Fast 1200mV 0C Model Setup 'SM_2300_Task6_adc_control:b2v_inst3|clock_ms'
+Slack : -0.514
+TNS   : -4.394
+
+Type  : Fast 1200mV 0C Model Setup 'out'
+Slack : 0.235
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SM_2300_Task6_adc_control:b2v_inst3|clock_ms'
+Slack : 0.132
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SM_2300_Task6_adc_control:b2v_inst3|adc_clock'
+Slack : 0.175
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk_50M'
+Slack : 0.177
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SM_2300_Task6_uart:b2v_inst4|clock'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SM_2300_Task6_color_detection:b2v_inst2|temp_scale_clock'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'out'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_50M'
+Slack : -3.000
+TNS   : -2104.714
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'out'
+Slack : -3.000
+TNS   : -5.260
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SM_2300_Task6_color_detection:b2v_inst2|temp_scale_clock'
+Slack : -1.000
+TNS   : -193.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SM_2300_Task6_adc_control:b2v_inst3|adc_clock'
+Slack : -1.000
+TNS   : -58.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SM_2300_Task6_uart:b2v_inst4|clock'
+Slack : -1.000
+TNS   : -57.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SM_2300_Task6_adc_control:b2v_inst3|clock_ms'
+Slack : -1.000
+TNS   : -21.000
+
+------------------------------------------------------------

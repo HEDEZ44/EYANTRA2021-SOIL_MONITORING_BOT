@@ -1,0 +1,31 @@
+|seq_block_verilog
+CLK => CLK.IN3
+Y[0] <= T_ff:b2v_inst.q
+Y[1] <= T_ff:b2v_inst1.q
+Y[2] <= T_ff:b2v_inst2.q
+
+
+|seq_block_verilog|T_ff:b2v_inst
+T => x1.IN1
+CLK => q_bar~reg0.CLK
+CLK => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_bar <= q_bar~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|seq_block_verilog|T_ff:b2v_inst1
+T => x1.IN1
+CLK => q_bar~reg0.CLK
+CLK => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_bar <= q_bar~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|seq_block_verilog|T_ff:b2v_inst2
+T => x1.IN1
+CLK => q_bar~reg0.CLK
+CLK => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_bar <= q_bar~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

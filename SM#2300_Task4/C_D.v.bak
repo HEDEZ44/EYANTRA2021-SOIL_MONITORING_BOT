@@ -1,0 +1,83 @@
+module C_D(
+ 
+	input clk,             
+	input out,
+	input enable,
+	output [1:0]color_state,
+	output [1:0]freq_scale
+);
+ 
+////////////////////////WRITE YOUR CODE FROM HERE////////////////////
+reg [7:0]count=0;
+reg [7:0]color_count=0;
+reg color_clock=0;
+reg [1:0]state=0;
+reg [1:0]temp_color_state=0;
+reg [1:0]temp_out=out;
+reg [7:0]count_green;
+reg [7:0]count_red;
+reg [7:0]count_blue;
+
+assign freq_scale=2'b10;
+
+always @(posedge clk)
+begin
+
+if(count==145) 
+	begin
+	color_clock=~color_clock;
+	count=1;
+	end
+
+else count=count+1;
+
+end
+
+always @(posedge color_clock)
+begin
+if(color_count==50) 
+	begin
+		if(state<=2) state=state+1;
+		else state=0;
+	color_count=1;
+	end
+else color_count=color_count+1;
+
+end
+
+
+
+always @(posedge color_clock)
+begin
+
+case(state)
+0: begin
+		temp_color_state= 2'b00;
+		if(temp_out==0 && temp_color_state== 2'b00) count_red=count_red+1;
+		else count_red=count_red;
+	end
+	
+	
+1: begin	
+		temp_color_state= 2'b01;
+		if(temp_out==0 && temp_color_state== 2'b01) count_blue=count_blue+1;
+		else count_blue=count_blue;
+	end
+	
+2: begin
+		temp_color_state= 2'b11;
+		if(temp_out==0 && temp_color_state== 2'b11) count_green=count_green+1;
+		else count_green=count_green;
+	end
+	
+endcase
+
+end
+
+
+
+
+
+
+////////////////////////YOUR CODE ENDS HERE//////////////////////////
+endmodule

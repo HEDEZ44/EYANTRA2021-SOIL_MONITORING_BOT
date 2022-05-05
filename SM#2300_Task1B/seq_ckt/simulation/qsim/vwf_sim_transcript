@@ -1,0 +1,147 @@
+Determining the location of the ModelSim executable...
+
+Using: C:\intelFPGA_lite\19.1\modelsim_ase\win32aloem
+
+To specify a ModelSim executable directory, select: Tools -> Options -> EDA Tool Options
+Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-Altera will be used.
+
+**** Generating the ModelSim Testbench ****
+
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off seq_ckt -c seq_ckt --vector_source="E:/seq_ckt/seq_ckt/Waveform3.vwf" --testbench_file="E:/seq_ckt/seq_ckt/simulation/qsim/Waveform3.vwf.vt"
+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+    Info: Copyright (C) 2019  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Tue Oct 26 23:08:02 2021
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off seq_ckt -c seq_ckt --vector_source=E:/seq_ckt/seq_ckt/Waveform3.vwf --testbench_file=E:/seq_ckt/seq_ckt/simulation/qsim/Waveform3.vwf.vt
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+
+Completed successfully. 
+
+Completed successfully. 
+
+**** Generating the functional simulation netlist ****
+
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="E:/seq_ckt/seq_ckt/simulation/qsim/" seq_ckt -c seq_ckt
+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+    Info: Copyright (C) 2019  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Tue Oct 26 23:08:04 2021
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=E:/seq_ckt/seq_ckt/simulation/qsim/ seq_ckt -c seq_ckt
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (204019): Generated file seq_ckt.vo in folder "E:/seq_ckt/seq_ckt/simulation/qsim//" for EDA simulation tool
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4643 megabytes
+    Info: Processing ended: Tue Oct 26 23:08:05 2021
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+Completed successfully. 
+
+**** Generating the ModelSim .do script ****
+
+E:/seq_ckt/seq_ckt/simulation/qsim/seq_ckt.do generated.
+
+Completed successfully. 
+
+**** Running the ModelSim simulation ****
+
+C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/vsim -c -do seq_ckt.do
+
+Reading C:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+
+# 10.5b
+
+# do seq_ckt.do
+
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:06 on Oct 26,2021
+# vlog -work work seq_ckt.vo 
+# -- Compiling module T_ff
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	T_ff
+# End time: 23:08:06 on Oct 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:06 on Oct 26,2021
+# vlog -work work Waveform3.vwf.vt 
+# -- Compiling module T_ff_vlg_vec_tst
+# 
+# Top level modules:
+# 	T_ff_vlg_vec_tst
+# End time: 23:08:06 on Oct 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.T_ff_vlg_vec_tst 
+# Start time: 23:08:06 on Oct 26,2021
+# Loading work.T_ff_vlg_vec_tst
+# Loading work.T_ff
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading altera_ver.PRIM_GDFF_LOW
+# after#26
+# ** Note: $stop    : Waveform3.vwf.vt(49)
+#    Time: 1 us  Iteration: 0  Instance: /T_ff_vlg_vec_tst
+# Break in Module T_ff_vlg_vec_tst at Waveform3.vwf.vt line 49
+
+# Stopped at Waveform3.vwf.vt line 49
+
+# End time: 23:08:06 on Oct 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+Completed successfully. 
+
+**** Converting ModelSim VCD to vector waveform ****
+
+Reading E:/seq_ckt/seq_ckt/Waveform3.vwf...
+
+Reading E:/seq_ckt/seq_ckt/simulation/qsim/seq_ckt.msim.vcd...
+
+Processing channel transitions... 
+
+Writing the resulting VWF to E:/seq_ckt/seq_ckt/simulation/qsim/seq_ckt_20211026230807.sim.vwf
+
+Finished VCD to VWF conversion.
+
+Completed successfully. 
+
+All completed.

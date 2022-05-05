@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/SM#2300_Task4/simulation/qsim
+vC_D
+Z1 !s110 1641382956
+!i10b 1
+!s100 6@TC?oA[1Q4Cjl[i?9PnG3
+IceQ6J4YdodzUTl>1:MfBL0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1641382952
+Z4 8SM2300_Task4.vo
+Z5 FSM2300_Task4.vo
+L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1641382956.000000
+Z8 !s107 SM2300_Task4.vo|
+Z9 !s90 -work|work|SM2300_Task4.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@c_@d
+vC_D_vlg_vec_tst
+R1
+!i10b 1
+!s100 VAh2@[ic19?UzVb>EL8BN0
+I?<99Hm>k6<T<zVideFQaI1
+R2
+R0
+w1641382951
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+n@c_@d_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 O=d]5ifWBT5@d[<0[[TCL1
+IAALbTYRScPz=[3NQTk_lh0
+R2
+R0
+R3
+R4
+R5
+L0 2625
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

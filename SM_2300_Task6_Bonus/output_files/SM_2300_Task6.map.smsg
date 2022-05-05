@@ -1,0 +1,5 @@
+Warning (10268): Verilog HDL information at SM_2300_Task6_adc_control.v(2488): always construct contains both blocking and non-blocking assignments File: D:/2300#0_SM_2300_Task6/SM_2300_Task6_Bonus/SM_2300_Task6_adc_control.v Line: 2488
+Info (10281): Verilog HDL Declaration information at SM_2300_Task6_adc_control.v(77): object "s" differs only in case from object "S" in the same scope File: D:/2300#0_SM_2300_Task6/SM_2300_Task6_Bonus/SM_2300_Task6_adc_control.v Line: 77
+Info (10281): Verilog HDL Declaration information at SM_2300_Task6_adc_control.v(1139): object "N" differs only in case from object "n" in the same scope File: D:/2300#0_SM_2300_Task6/SM_2300_Task6_Bonus/SM_2300_Task6_adc_control.v Line: 1139
+Warning (10268): Verilog HDL information at SM_2300_Task6_uart.v(208): always construct contains both blocking and non-blocking assignments File: D:/2300#0_SM_2300_Task6/SM_2300_Task6_Bonus/SM_2300_Task6_uart.v Line: 208
+Info (10281): Verilog HDL Declaration information at SM_2300_Task6_uart.v(193): object "dS" differs only in case from object "DS" in the same scope File: D:/2300#0_SM_2300_Task6/SM_2300_Task6_Bonus/SM_2300_Task6_uart.v Line: 193

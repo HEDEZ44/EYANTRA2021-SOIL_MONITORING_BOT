@@ -1,0 +1,6 @@
+|AND_GATE
+C << C.DB_MAX_OUTPUT_PORT_TYPE
+A => C.IN0
+B => C.IN1
+
+

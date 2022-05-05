@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/fsm/fsm/simulation/modelsim
+vfsm
+Z1 !s110 1635526945
+!i10b 1
+!s100 Q3N_e^f^0KUkS175nT0?52
+IfSW[Z0I8ZU39_^KK;R2b13
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1635526685
+8F:/fsm/fsm/fsm.v
+FF:/fsm/fsm/fsm.v
+L0 21
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1635526945.000000
+!s107 F:/fsm/fsm/fsm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/fsm/fsm|F:/fsm/fsm/fsm.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+F:/fsm/fsm
+Z6 tCvgOpt 0
+vfsm_tb
+R1
+!i10b 1
+!s100 Xh0C`0PJ3SLO6M0NUCGJ40
+IXY2zJd@=CVOQ4Q<X1?kdT1
+R2
+R0
+w1628012025
+8F:/fsm/fsm/simulation/modelsim/fsm_tb.v
+FF:/fsm/fsm/simulation/modelsim/fsm_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/fsm/fsm/simulation/modelsim/fsm_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/fsm/fsm/simulation/modelsim|F:/fsm/fsm/simulation/modelsim/fsm_tb.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+F:/fsm/fsm/simulation/modelsim
+R6

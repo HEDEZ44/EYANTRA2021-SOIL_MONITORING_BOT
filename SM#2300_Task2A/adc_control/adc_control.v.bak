@@ -1,0 +1,117 @@
+module adc_control(
+	input  clk_50,
+	input  dout,
+	output adc_cs_n, //always 0
+	output din,
+	output adc_sck,
+	output [11:0]d_out_ch5,
+	output [11:0]d_out_ch6,
+	output [11:0]d_out_ch7,
+	output [1:0]data_frame
+	);
+	
+	assign adc_cs_n = 0;
+	
+	wire sck_reg;
+	assign adc_sck = sck_reg;
+	
+	sq_wave uut(clk_50, sck_reg);
+	
+	reg [11:0]data_ch5 = 0;
+	assign d_out_ch5 = data_ch5;
+	
+	reg [11:0]data_ch6 = 0;
+	assign d_out_ch6 = data_ch6;
+	
+	reg [11:0]data_ch7 = 0;
+	assign d_out_ch7 = data_ch7;
+	
+	reg [11:0]data_ch;
+		
+	reg [2:0]din_ch5 = 3'b101; //channel 5
+	reg [2:0]din_ch6 = 3'b110; //channel 6
+	reg [2:0]din_ch7 = 3'b111; //channel 7
+	reg [2:0]din_ch;
+	
+	reg din_r = 0;
+	assign din = din_r;
+	
+	reg [7:0]counter_negedge = 16;
+	reg [7:0]counter_posedge = 0;
+	
+	reg [1:0]data_frame_reg = 2'b00;
+	assign data_frame = data_frame_reg;
+	
+	always @* begin
+	
+		if(data_frame_reg == 0) begin
+			din_ch = din_ch5;
+		end
+		else if(data_frame_reg == 1) begin
+			din_ch = din_ch6;
+		end
+		else begin
+			din_ch = din_ch7;
+		end
+	
+	end
+	
+
+	always @ (negedge sck_reg) begin //to send din
+	
+		if(counter_negedge == 0) begin
+			
+			counter_negedge = 15;
+			
+			if(data_frame_reg == 0) begin
+				data_ch7 <= data_ch;
+				data_frame_reg <= 1;
+			end
+			else if(data_frame_reg == 1) begin
+				data_ch5 <= data_ch;
+				data_frame_reg <= 2;
+			end
+			else begin
+				data_ch6 <= data_ch;
+				data_frame_reg <= 0;
+			end
+		end
+		else begin
+			if(counter_negedge <= 14 && counter_negedge >= 12) begin
+				din_r <= din_ch[counter_negedge - 12];
+			end
+			else
+				din_r <= 0;
+			counter_negedge <= counter_negedge - 1;
+		end
+			
+//		data_frame_reg <= data_frame_reg + 2'b01;
+	
+	end
+	
+	always @ (posedge sck_reg) begin //to read data
+	
+		if(counter_posedge == 15) begin
+//			data_ch = data_ch + (dout << (15 - counter_posedge));
+			data_ch <= data_ch + dout;
+			counter_posedge <= 0;
+//			if(data_frame_reg == 0)
+//				data_ch7 = data_ch;
+//			else if(data_frame_reg == 1)
+//				data_ch5 = data_ch;
+//			else
+//				data_ch6 = data_ch;
+		end
+		else begin
+			if(counter_posedge >= 4) begin
+				data_ch <= data_ch + (dout << (15 - counter_posedge));
+			end
+			else begin
+				data_ch <= 0;
+			end
+			counter_posedge <= counter_posedge + 1;
+		end
+	
+	end	
+	
+endmodule

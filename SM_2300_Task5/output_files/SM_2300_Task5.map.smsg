@@ -1,0 +1,3 @@
+Warning (10268): Verilog HDL information at SM_2300_Task5_adc_control.v(1324): always construct contains both blocking and non-blocking assignments File: F:/eyrc_2k21/SM_2300_Task5/SM_2300_Task5_adc_control.v Line: 1324
+Info (10281): Verilog HDL Declaration information at SM_2300_Task5_adc_control.v(1098): object "s" differs only in case from object "S" in the same scope File: F:/eyrc_2k21/SM_2300_Task5/SM_2300_Task5_adc_control.v Line: 1098
+Warning (10268): Verilog HDL information at SM_2300_Task5_uart.v(264): always construct contains both blocking and non-blocking assignments File: F:/eyrc_2k21/SM_2300_Task5/SM_2300_Task5_uart.v Line: 264

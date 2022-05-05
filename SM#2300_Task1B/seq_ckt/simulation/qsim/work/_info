@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/seq_ckt/seq_ckt/simulation/qsim
+vhard_block
+Z1 !s110 1635269886
+!i10b 1
+!s100 ]f0Z4FB=0R`e6<]Zhb96N0
+IXndY76OGhN<oYk^2FfOjI3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1635269885
+Z4 8seq_ckt.vo
+Z5 Fseq_ckt.vo
+L0 213
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1635269886.000000
+Z8 !s107 seq_ckt.vo|
+Z9 !s90 -work|work|seq_ckt.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vT_ff
+R1
+!i10b 1
+!s100 `f<RPM>;B1nfWWZfeXhX@0
+I3g<[e_LIdoTeMK=9ARHB>3
+R2
+R0
+R3
+R4
+R5
+L0 32
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@t_ff
+vT_ff_vlg_vec_tst
+R1
+!i10b 1
+!s100 N1=ZBb:J7MZMS_iMCI1JA0
+IlYNhcGoA@VMUYonGOn8GO3
+R2
+R0
+w1635269884
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R10
+R11
+n@t_ff_vlg_vec_tst

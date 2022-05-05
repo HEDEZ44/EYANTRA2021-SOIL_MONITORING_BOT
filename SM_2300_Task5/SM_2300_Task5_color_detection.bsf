@@ -1,0 +1,128 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 224 256)
+	(text "SM_2300_Task5_color_detection" (rect 5 0 139 12)(font "Arial" ))
+	(text "inst" (rect 8 224 20 236)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk_50M" (rect 0 0 34 12)(font "Arial" ))
+		(text "clk_50M" (rect 21 27 55 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "out" (rect 0 0 11 12)(font "Arial" ))
+		(text "out" (rect 21 43 32 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 208 32)
+		(output)
+		(text "scale_clk" (rect 0 0 36 12)(font "Arial" ))
+		(text "scale_clk" (rect 151 27 187 39)(font "Arial" ))
+		(line (pt 208 32)(pt 192 32)(line_width 1))
+	)
+	(port
+		(pt 208 48)
+		(output)
+		(text "temp_S0" (rect 0 0 36 12)(font "Arial" ))
+		(text "temp_S0" (rect 151 43 187 55)(font "Arial" ))
+		(line (pt 208 48)(pt 192 48)(line_width 1))
+	)
+	(port
+		(pt 208 64)
+		(output)
+		(text "temp_S1" (rect 0 0 35 12)(font "Arial" ))
+		(text "temp_S1" (rect 152 59 187 71)(font "Arial" ))
+		(line (pt 208 64)(pt 192 64)(line_width 1))
+	)
+	(port
+		(pt 208 80)
+		(output)
+		(text "temp_S2" (rect 0 0 36 12)(font "Arial" ))
+		(text "temp_S2" (rect 151 75 187 87)(font "Arial" ))
+		(line (pt 208 80)(pt 192 80)(line_width 1))
+	)
+	(port
+		(pt 208 96)
+		(output)
+		(text "temp_S3" (rect 0 0 36 12)(font "Arial" ))
+		(text "temp_S3" (rect 151 91 187 103)(font "Arial" ))
+		(line (pt 208 96)(pt 192 96)(line_width 1))
+	)
+	(port
+		(pt 208 112)
+		(output)
+		(text "temp_red[20..0]" (rect 0 0 63 12)(font "Arial" ))
+		(text "temp_red[20..0]" (rect 124 107 187 119)(font "Arial" ))
+		(line (pt 208 112)(pt 192 112)(line_width 3))
+	)
+	(port
+		(pt 208 128)
+		(output)
+		(text "temp_blue[20..0]" (rect 0 0 66 12)(font "Arial" ))
+		(text "temp_blue[20..0]" (rect 121 123 187 135)(font "Arial" ))
+		(line (pt 208 128)(pt 192 128)(line_width 3))
+	)
+	(port
+		(pt 208 144)
+		(output)
+		(text "temp_green[20..0]" (rect 0 0 73 12)(font "Arial" ))
+		(text "temp_green[20..0]" (rect 114 139 187 151)(font "Arial" ))
+		(line (pt 208 144)(pt 192 144)(line_width 3))
+	)
+	(port
+		(pt 208 160)
+		(output)
+		(text "temp_clear[20..0]" (rect 0 0 69 12)(font "Arial" ))
+		(text "temp_clear[20..0]" (rect 118 155 187 167)(font "Arial" ))
+		(line (pt 208 160)(pt 192 160)(line_width 3))
+	)
+	(port
+		(pt 208 176)
+		(output)
+		(text "red_led" (rect 0 0 29 12)(font "Arial" ))
+		(text "red_led" (rect 158 171 187 183)(font "Arial" ))
+		(line (pt 208 176)(pt 192 176)(line_width 1))
+	)
+	(port
+		(pt 208 192)
+		(output)
+		(text "blue_led" (rect 0 0 31 12)(font "Arial" ))
+		(text "blue_led" (rect 156 187 187 199)(font "Arial" ))
+		(line (pt 208 192)(pt 192 192)(line_width 1))
+	)
+	(port
+		(pt 208 208)
+		(output)
+		(text "green_led" (rect 0 0 38 12)(font "Arial" ))
+		(text "green_led" (rect 149 203 187 215)(font "Arial" ))
+		(line (pt 208 208)(pt 192 208)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 192 224)(line_width 1))
+	)
+)

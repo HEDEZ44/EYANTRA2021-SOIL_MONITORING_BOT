@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/AND_GATE/simulation/qsim
+vAND_GATE
+Z1 !s110 1633809357
+!i10b 1
+!s100 ]?J15cD;Gf:O^RIMM1[NE1
+I`4Mche9zkjRRR9bgKcMzZ1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1633809356
+Z4 8AND_GATE.vo
+Z5 FAND_GATE.vo
+L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1633809357.000000
+Z8 !s107 AND_GATE.vo|
+Z9 !s90 -work|work|AND_GATE.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@a@n@d_@g@a@t@e
+vAND_GATE_vlg_vec_tst
+R1
+!i10b 1
+!s100 eOh1o[;_HL0a>Jf]5^Z@R1
+I4nEl@I5EM<i_`UOROUVF22
+R2
+R0
+w1633809355
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@a@n@d_@g@a@t@e_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 8njLGag8ZL3HHoNaKekRC1
+Ii5MOK?4YB=]S8U9DiWE5=1
+R2
+R0
+R3
+R4
+R5
+L0 122
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

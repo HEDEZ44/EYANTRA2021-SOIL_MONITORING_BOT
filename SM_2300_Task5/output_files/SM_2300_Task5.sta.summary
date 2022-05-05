@@ -1,0 +1,257 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk_50M'
+Slack : -234.271
+TNS   : -134088.747
+
+Type  : Slow 1200mV 85C Model Setup 'SM_2300_Task5_color_detection:b2v_inst2|temp_scale_clock'
+Slack : -8.161
+TNS   : -1060.780
+
+Type  : Slow 1200mV 85C Model Setup 'SM_2300_Task5_uart:b2v_inst3|clock'
+Slack : -5.183
+TNS   : -138.690
+
+Type  : Slow 1200mV 85C Model Setup 'SM_2300_Task5_adc_control:b2v_inst|clock_ms'
+Slack : -1.866
+TNS   : -27.675
+
+Type  : Slow 1200mV 85C Model Setup 'SM_2300_Task5_adc_control:b2v_inst|adc_clock'
+Slack : -1.679
+TNS   : -70.296
+
+Type  : Slow 1200mV 85C Model Setup 'SM_2300_Task5_uart:b2v_inst3|blink_clock'
+Slack : -1.352
+TNS   : -1.352
+
+Type  : Slow 1200mV 85C Model Setup 'out'
+Slack : -0.241
+TNS   : -0.241
+
+Type  : Slow 1200mV 85C Model Hold 'SM_2300_Task5_adc_control:b2v_inst|clock_ms'
+Slack : 0.333
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SM_2300_Task5_adc_control:b2v_inst|adc_clock'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk_50M'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SM_2300_Task5_uart:b2v_inst3|clock'
+Slack : 0.342
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SM_2300_Task5_uart:b2v_inst3|blink_clock'
+Slack : 0.382
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'out'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SM_2300_Task5_color_detection:b2v_inst2|temp_scale_clock'
+Slack : 0.397
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_50M'
+Slack : -3.000
+TNS   : -1796.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'out'
+Slack : -3.000
+TNS   : -5.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SM_2300_Task5_color_detection:b2v_inst2|temp_scale_clock'
+Slack : -1.000
+TNS   : -193.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SM_2300_Task5_adc_control:b2v_inst|adc_clock'
+Slack : -1.000
+TNS   : -58.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SM_2300_Task5_uart:b2v_inst3|clock'
+Slack : -1.000
+TNS   : -50.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SM_2300_Task5_adc_control:b2v_inst|clock_ms'
+Slack : -1.000
+TNS   : -21.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SM_2300_Task5_uart:b2v_inst3|blink_clock'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk_50M'
+Slack : -210.094
+TNS   : -120175.250
+
+Type  : Slow 1200mV 0C Model Setup 'SM_2300_Task5_color_detection:b2v_inst2|temp_scale_clock'
+Slack : -7.253
+TNS   : -933.357
+
+Type  : Slow 1200mV 0C Model Setup 'SM_2300_Task5_uart:b2v_inst3|clock'
+Slack : -4.664
+TNS   : -121.931
+
+Type  : Slow 1200mV 0C Model Setup 'SM_2300_Task5_adc_control:b2v_inst|clock_ms'
+Slack : -1.534
+TNS   : -22.193
+
+Type  : Slow 1200mV 0C Model Setup 'SM_2300_Task5_adc_control:b2v_inst|adc_clock'
+Slack : -1.431
+TNS   : -58.033
+
+Type  : Slow 1200mV 0C Model Setup 'SM_2300_Task5_uart:b2v_inst3|blink_clock'
+Slack : -1.113
+TNS   : -1.113
+
+Type  : Slow 1200mV 0C Model Setup 'out'
+Slack : -0.102
+TNS   : -0.102
+
+Type  : Slow 1200mV 0C Model Hold 'clk_50M'
+Slack : 0.296
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SM_2300_Task5_adc_control:b2v_inst|adc_clock'
+Slack : 0.298
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SM_2300_Task5_uart:b2v_inst3|clock'
+Slack : 0.299
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SM_2300_Task5_adc_control:b2v_inst|clock_ms'
+Slack : 0.307
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SM_2300_Task5_uart:b2v_inst3|blink_clock'
+Slack : 0.333
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'out'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SM_2300_Task5_color_detection:b2v_inst2|temp_scale_clock'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_50M'
+Slack : -3.000
+TNS   : -1796.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'out'
+Slack : -3.000
+TNS   : -5.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SM_2300_Task5_color_detection:b2v_inst2|temp_scale_clock'
+Slack : -1.000
+TNS   : -193.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SM_2300_Task5_adc_control:b2v_inst|adc_clock'
+Slack : -1.000
+TNS   : -58.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SM_2300_Task5_uart:b2v_inst3|clock'
+Slack : -1.000
+TNS   : -50.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SM_2300_Task5_adc_control:b2v_inst|clock_ms'
+Slack : -1.000
+TNS   : -21.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SM_2300_Task5_uart:b2v_inst3|blink_clock'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk_50M'
+Slack : -132.090
+TNS   : -75299.986
+
+Type  : Fast 1200mV 0C Model Setup 'SM_2300_Task5_color_detection:b2v_inst2|temp_scale_clock'
+Slack : -4.237
+TNS   : -527.777
+
+Type  : Fast 1200mV 0C Model Setup 'SM_2300_Task5_uart:b2v_inst3|clock'
+Slack : -2.688
+TNS   : -59.249
+
+Type  : Fast 1200mV 0C Model Setup 'SM_2300_Task5_adc_control:b2v_inst|clock_ms'
+Slack : -0.610
+TNS   : -6.056
+
+Type  : Fast 1200mV 0C Model Setup 'SM_2300_Task5_adc_control:b2v_inst|adc_clock'
+Slack : -0.467
+TNS   : -13.348
+
+Type  : Fast 1200mV 0C Model Setup 'SM_2300_Task5_uart:b2v_inst3|blink_clock'
+Slack : -0.334
+TNS   : -0.334
+
+Type  : Fast 1200mV 0C Model Setup 'out'
+Slack : 0.316
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SM_2300_Task5_adc_control:b2v_inst|clock_ms'
+Slack : 0.132
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SM_2300_Task5_adc_control:b2v_inst|adc_clock'
+Slack : 0.175
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SM_2300_Task5_uart:b2v_inst3|clock'
+Slack : 0.175
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk_50M'
+Slack : 0.177
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SM_2300_Task5_uart:b2v_inst3|blink_clock'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'out'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SM_2300_Task5_color_detection:b2v_inst2|temp_scale_clock'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_50M'
+Slack : -3.000
+TNS   : -1908.290
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'out'
+Slack : -3.000
+TNS   : -5.352
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SM_2300_Task5_color_detection:b2v_inst2|temp_scale_clock'
+Slack : -1.000
+TNS   : -193.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SM_2300_Task5_adc_control:b2v_inst|adc_clock'
+Slack : -1.000
+TNS   : -58.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SM_2300_Task5_uart:b2v_inst3|clock'
+Slack : -1.000
+TNS   : -50.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SM_2300_Task5_adc_control:b2v_inst|clock_ms'
+Slack : -1.000
+TNS   : -21.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SM_2300_Task5_uart:b2v_inst3|blink_clock'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

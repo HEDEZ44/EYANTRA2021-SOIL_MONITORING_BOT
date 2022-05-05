@@ -1,0 +1,63 @@
+
+State Machine - |SM_2300_Task5_final|SM_2300_Task5_uart:b2v_inst3|curr
+Name curr.s6 curr.s5 curr.s4 curr.s3 curr.s2 curr.s1 curr.s0 
+curr.s0 0 0 0 0 0 0 0 
+curr.s1 0 0 0 0 0 1 1 
+curr.s2 0 0 0 0 1 0 1 
+curr.s3 0 0 0 1 0 0 1 
+curr.s4 0 0 1 0 0 0 1 
+curr.s5 0 1 0 0 0 0 1 
+curr.s6 1 0 0 0 0 0 1 
+
+State Machine - |SM_2300_Task5_final|SM_2300_Task5_adc_control:b2v_inst|node_state
+Name node_state.ns2 node_state.ns0 node_state.ns1 
+node_state.ns0 0 0 0 
+node_state.ns2 1 1 0 
+node_state.ns1 0 1 1 
+
+State Machine - |SM_2300_Task5_final|SM_2300_Task5_adc_control:b2v_inst|curr_state_1
+Name curr_state_1.state_5_1 curr_state_1.state_4_1 curr_state_1.state_3_1 curr_state_1.state_2_1 curr_state_1.state_1_1 curr_state_1.state_0_1 
+curr_state_1.state_0_1 0 0 0 0 0 0 
+curr_state_1.state_1_1 0 0 0 0 1 1 
+curr_state_1.state_2_1 0 0 0 1 0 1 
+curr_state_1.state_3_1 0 0 1 0 0 1 
+curr_state_1.state_4_1 0 1 0 0 0 1 
+curr_state_1.state_5_1 1 0 0 0 0 1 
+
+State Machine - |SM_2300_Task5_final|SM_2300_Task5_adc_control:b2v_inst|check_min
+Name check_min.check_min3 check_min.check_min2 check_min.check_min1 check_min.check_min4 
+check_min.check_min1 0 0 0 0 
+check_min.check_min2 0 1 1 0 
+check_min.check_min3 1 0 1 0 
+check_min.check_min4 0 0 1 1 
+
+State Machine - |SM_2300_Task5_final|SM_2300_Task5_adc_control:b2v_inst|s_end_state
+Name s_end_state.se_3 s_end_state.se_1 s_end_state.se_2 
+s_end_state.se_1 0 0 0 
+s_end_state.se_2 0 1 1 
+s_end_state.se_3 1 1 0 
+
+State Machine - |SM_2300_Task5_final|SM_2300_Task5_adc_control:b2v_inst|orientation_temp
+Name orientation_temp.N orientation_temp.S orientation_temp.E orientation_temp.W 
+orientation_temp.W 0 0 0 0 
+orientation_temp.E 0 0 1 1 
+orientation_temp.S 0 1 0 1 
+orientation_temp.N 1 0 0 1 
+
+State Machine - |SM_2300_Task5_final|SM_2300_Task5_adc_control:b2v_inst|path_state
+Name path_state.ps6 path_state.ps5 path_state.ps4 path_state.ps3 path_state.ps2 path_state.ps1 
+path_state.ps1 0 0 0 0 0 0 
+path_state.ps2 0 0 0 0 1 1 
+path_state.ps3 0 0 0 1 0 1 
+path_state.ps4 0 0 1 0 0 1 
+path_state.ps5 0 1 0 0 0 1 
+path_state.ps6 1 0 0 0 0 1 
+
+State Machine - |SM_2300_Task5_final|SM_2300_Task5_adc_control:b2v_inst|curr_state
+Name curr_state.state_5 curr_state.state_4 curr_state.state_3 curr_state.state_2 curr_state.state_1 curr_state.state_0 
+curr_state.state_0 0 0 0 0 0 0 
+curr_state.state_1 0 0 0 0 1 1 
+curr_state.state_2 0 0 0 1 0 1 
+curr_state.state_3 0 0 1 0 0 1 
+curr_state.state_4 0 1 0 0 0 1 
+curr_state.state_5 1 0 0 0 0 1 

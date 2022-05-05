@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/SM#2300_Task2A/adc_control/SM#2300_Task2A/adc_control/simulation/modelsim
+vadc_control
+Z1 !s110 1637686997
+!i10b 1
+!s100 k_^Ioz7Q44M;fcM9k7nB:0
+Ii2QfPlKWn6CBX_=VmzPDI0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1637608289
+8E:/SM#2300_Task2A/adc_control/SM#2300_Task2A/adc_control/adc_control.v
+FE:/SM#2300_Task2A/adc_control/SM#2300_Task2A/adc_control/adc_control.v
+L0 22
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1637686996.000000
+!s107 E:/SM#2300_Task2A/adc_control/SM#2300_Task2A/adc_control/adc_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/SM#2300_Task2A/adc_control/SM#2300_Task2A/adc_control|E:/SM#2300_Task2A/adc_control/SM#2300_Task2A/adc_control/adc_control.v|
+!i113 1
+Z4 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+E:/SM#2300_Task2A/adc_control/SM#2300_Task2A/adc_control
+Z5 tCvgOpt 0
+vadc_tb
+R1
+!i10b 1
+!s100 a@@6Td5mEn=<63HoWoQFi2
+IYPUB>O1nGU1OIQ1[T9k9?0
+R2
+R0
+w1636971072
+8E:/SM#2300_Task2A/adc_control/SM#2300_Task2A/adc_control/simulation/modelsim/adc_tb.v
+FE:/SM#2300_Task2A/adc_control/SM#2300_Task2A/adc_control/simulation/modelsim/adc_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1637686997.000000
+!s107 E:/SM#2300_Task2A/adc_control/SM#2300_Task2A/adc_control/simulation/modelsim/adc_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/SM#2300_Task2A/adc_control/SM#2300_Task2A/adc_control/simulation/modelsim|E:/SM#2300_Task2A/adc_control/SM#2300_Task2A/adc_control/simulation/modelsim/adc_tb.v|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+E:/SM#2300_Task2A/adc_control/SM#2300_Task2A/adc_control/simulation/modelsim
+R5

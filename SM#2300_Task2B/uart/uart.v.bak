@@ -1,0 +1,24 @@
+// SM : Task 2 B : UART
+/*
+Instructions
+-------------------
+Students are not allowed to make any changes in the Module declaration.
+This file is used to design UART Transmitter.
+
+Recommended Quartus Version : 19.1
+The submitted project file must be 19.1 compatible as the evaluation will be done on Quartus Prime Lite 19.1.
+
+Warning: The error due to compatibility will not be entertained.
+-------------------
+*/
+
+//ADC Controller design
+//Input   : clk_50M : 50 MHz clock
+//Output  : tx : UART transmit output
+
+//////////////////DO NOT MAKE ANY CHANGES IN MODULE//////////////////
+module uart(
+	input clk_50M,	//50 MHz clock
+	output tx		//UART transmit output
+);
+////////////////////////WRITE YOUR CODE FROM HERE////////////////////

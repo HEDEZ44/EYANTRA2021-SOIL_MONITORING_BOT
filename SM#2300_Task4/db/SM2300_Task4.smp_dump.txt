@@ -1,0 +1,8 @@
+
+State Machine - |SM2300_Task4_final2|SM2300_Task4_uart:b2v_inst|curr
+Name curr.s3 curr.s2 curr.s1 curr.s0 curr.s4 
+curr.s0 0 0 0 0 0 
+curr.s1 0 0 1 1 0 
+curr.s2 0 1 0 1 0 
+curr.s3 1 0 0 1 0 
+curr.s4 0 0 0 1 1 

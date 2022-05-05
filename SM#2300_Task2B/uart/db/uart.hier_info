@@ -1,0 +1,5 @@
+|uart
+clk_50M => ~NO_FANOUT~
+tx << tx_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

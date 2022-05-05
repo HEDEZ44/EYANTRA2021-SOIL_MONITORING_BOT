@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "PWM_OUT",
+					"strict" : false
+				},
+				{
+					"name" : "DUTY_CYCLE[7]",
+					"strict" : false
+				},
+				{
+					"name" : "DUTY_CYCLE[6]",
+					"strict" : false
+				},
+				{
+					"name" : "DUTY_CYCLE[5]",
+					"strict" : false
+				},
+				{
+					"name" : "DUTY_CYCLE[4]",
+					"strict" : false
+				},
+				{
+					"name" : "DUTY_CYCLE[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DUTY_CYCLE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DUTY_CYCLE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

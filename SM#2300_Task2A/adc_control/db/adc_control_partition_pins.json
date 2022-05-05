@@ -1,0 +1,177 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "din",
+					"strict" : false
+				},
+				{
+					"name" : "adc_sck",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch5[0]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch5[1]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch5[4]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch5[5]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch5[6]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch5[7]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch5[8]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch5[9]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch5[10]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch5[11]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch6[0]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch6[1]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch6[2]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch6[3]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch6[4]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch6[5]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch6[6]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch6[7]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch6[8]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch6[9]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch6[10]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch6[11]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch7[0]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch7[1]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch7[2]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch7[3]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch7[4]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch7[5]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch7[6]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch7[7]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch7[8]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch7[9]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch7[10]",
+					"strict" : false
+				},
+				{
+					"name" : "d_out_ch7[11]",
+					"strict" : false
+				},
+				{
+					"name" : "data_frame[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data_frame[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dout",
+					"strict" : false
+				},
+				{
+					"name" : "clk_50",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
